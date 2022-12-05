@@ -1,14 +1,10 @@
 /* styles go here */
 
-.form-fild {
+.form-field:not(:last-child) {
   display: block;
   margin-bottom: 10px;
 }
 
 .form-group {
   margin-bottom: 20px;
-}
-
-.form-fild:last-child {
-  margin-bottom: 0;
 }
